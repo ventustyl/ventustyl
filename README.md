@@ -19,6 +19,6 @@ Je suis un professionnel rigoureux et engagé, mettant en œuvre tous les moyens
 
 Je suis prêt à mettre en œuvre mon expérience et mes compétences variées pour contribuer au succès de votre entreprise. Mon parcours professionnel diversifié et mon engagement en font un candidat idéal pour relever les défis et fournir des résultats exceptionnels.
 
-Venez voir mon Portfolio & Laboratoire sur : [Le lab d'Eric](https://lelabderic.fr/)
-Retrouvez moi sur linkedin : [Eric Venturino](https://www.linkedin.com/in/eric-venturino/)
-Retrouvez moi sur Youtube : [Eric V](https://www.youtube.com/@ventustyl/videos)
+Venez voir mon Portfolio & Laboratoire sur : [Le lab d'Eric](https://lelabderic.fr/)  
+Retrouvez moi sur linkedin : [Eric Venturino](https://www.linkedin.com/in/eric-venturino/)  
+Retrouvez moi sur Youtube : [Eric V](https://www.youtube.com/@ventustyl/videos)  
