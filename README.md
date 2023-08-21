@@ -1,5 +1,3 @@
-
-
 # Bonjour à tous 👋
 
 Je suis un professionnel rigoureux et engagé, mettant en œuvre tous les moyens nécessaires pour réussir dans tout ce que j’entreprends. Ma capacité d’adaptation exceptionnelle, mon autonomie et mon souci du travail bien accompli sont mes atouts principaux pour aborder avec succès les tâches qui me sont confiées. J’aime relever des défis et je suis doté d’un sens aigu des priorités. Mon désir de contribuer efficacement au sein de votre entreprise sera soutenu par mes compétences et mon engagement.
@@ -22,6 +20,5 @@ Je suis un professionnel rigoureux et engagé, mettant en œuvre tous les moyens
 Je suis prêt à mettre en œuvre mon expérience et mes compétences variées pour contribuer au succès de votre entreprise. Mon parcours professionnel diversifié et mon engagement en font un candidat idéal pour relever les défis et fournir des résultats exceptionnels.
 
 Venez voir mon Portfolio & Laboratoire sur : [Le lab d'Eric](https://lelabderic.fr/)
-
-
-
+Retrouvez moi sur linkedin : [Eric Venturino](https://www.linkedin.com/in/eric-venturino/)
+Retrouvez moi sur Youtube : [Eric V](https://www.youtube.com/@ventustyl/videos)
