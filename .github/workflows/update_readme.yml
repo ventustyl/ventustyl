@@ -1,0 +1,27 @@
+name: Update README with Current Date
+
+on:
+  schedule:
+    - cron: "0 4 * * *" # Exécute à 04:00 UTC tous les jours
+  workflow_dispatch:
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: "21.x"
+      - name: Update README.md file
+        run: node index.js
+      - name: Commit changes
+        uses: EndBug/add-and-commit@v4
+        with:
+          author_name: Venturino Eric
+          author_email: eric.venturino@orange.fr
+          message: ":memo: Mise à jour automatique du README"
+          add: "README.md"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
