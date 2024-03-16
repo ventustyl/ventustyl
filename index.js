@@ -1,21 +1,21 @@
 const fs = require("fs");
-const date = new Date();
 
-const readmeContent = `
-# Mise à jour automatique du README
+// Fonction pour obtenir la date du jour au format "jour/mois/année"
+function getTodaysDate() {
+  const today = new Date();
+  return `${today.getDate()}/${today.getMonth() + 1}/${today.getFullYear()}`;
+}
 
-Ce README est mis à jour automatiquement par GitHub Actions.
+// Contenu du README
+const readmeContent = `# Bienvenue sur mon projet
 
-## Dernière mise à jour
+Ce projet est mis à jour automatiquement.
 
-La dernière mise à jour a été effectuée le ${date.toLocaleDateString()} à ${date.toLocaleTimeString()}.
-
-## Message personnalisé
-
-Bienvenue sur mon projet GitHub ! Ce README est régulièrement mis à jour pour afficher la dernière date et heure de mise à jour.
+Dernière mise à jour : ${getTodaysDate()}
 `;
 
+// Écriture dans le fichier README.md
 fs.writeFile("README.md", readmeContent, (err) => {
   if (err) throw err;
-  console.log("README.md has been updated!");
+  console.log("README.md a été mis à jour avec la date du jour.");
 });
