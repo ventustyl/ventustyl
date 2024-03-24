@@ -10,19 +10,19 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v2.4.0
 
       - name: Update README
         run: |
           DATE=$(date +"%d/%m/%Y")
-          echo "Date actuelle: $DATE"
-          sed -i "s|### Date de mise à jour : .*|## Date de mise à jour : $DATE|" README.md
-          cat README.md # Pour vérifier si la mise à jour a réussi
+          echo "La date actuelle est : $DATE"
+          # Utilisation de '|' comme délimiteur pour 'sed'
+          sed -i "s|## Date de mise à jour : .*|## Date de mise à jour : $DATE|" README.md
 
       - name: Commit and push if changed
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add README.md
-          git commit -m "Mise à jour automatique de la date" -a || true
+          git diff --staged --quiet || git commit -m "Mise à jour automatique de la date dans README" -a
           git push
