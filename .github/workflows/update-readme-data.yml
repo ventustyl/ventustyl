@@ -14,10 +14,8 @@ jobs:
 
       - name: Update README
         run: |
-          DATE=$(date +"%d/%m/%Y")
+
           echo "La date actuelle est : $DATE"
-          # Utilisation de '|' comme délimiteur pour 'sed'
-          sed -i "s|## Date de mise à jour : .*|## Date de mise à jour : $DATE|" README.md
 
       - name: Commit and push if changed
         run: |
