@@ -1,8 +1,8 @@
-name: Update README every 30 minutes
+name: Update README every 5 minutes
 
 on:
   schedule:
-    - cron: "*/30 * * * *"
+    - cron: "*/5 * * * *"
 
 jobs:
   update-readme:
