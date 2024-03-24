@@ -10,13 +10,13 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v2
 
       - name: Update README
         run: |
           DATE=$(date +"%d/%m/%Y")
           echo "Date actuelle: $DATE"
-          sed -i "s/## Date de mise à jour : .*/## Date de mise à jour : $DATE/" README.md
+          sed -i "s|## Date de mise à jour : .*|## Date de mise à jour : $DATE|" README.md
           cat README.md # Pour vérifier si la mise à jour a réussi
 
       - name: Commit and push if changed
