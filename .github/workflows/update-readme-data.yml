@@ -1,33 +1,31 @@
-name: Update README
+name: Update README Date
 
 on:
-  push:
   schedule:
-    - cron: "0 */1 * * *"
+    - cron: "*/30 * * * *" # Ce workflow s'exécute toutes les 30 minutes
 
 jobs:
-  markscribe:
+  update-readme:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout
+      - name: Checkout repository
         uses: actions/checkout@v2
-        with:
-          ref: main
-      - name: Render Template
-        uses: muesli/readme-scribe@master
-        env:
-          GITHUB_TOKEN: ${{ secrets.PERSONAL_GITHUB_TOKEN }}
-        with:
-          template: "templates/README.md.tpl"
-          writeTo: "profile/README.md"
 
-      - name: Push
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: "18"
+
+      - name: Update README Date
         run: |
-          date > generated.txt
-          git config user.name readme-scribe 🤖
-          git config user.email actions@github.com
-          git add .
-          git commit -m "locally generated"
-          git status
-          git push origin main
+          DATE=$(date +"%d/%m/%Y")
+          sed -i "s|## Date de mise à jour : .*|## Date de mise à jour : $DATE|" README.md
+
+      - name: Commit and push if changed
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add README.md
+          git commit -m "Automated README date update" -a || exit 0  # Ne pas échouer si aucun changement
+          git push
