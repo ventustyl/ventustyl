@@ -1,6 +1,6 @@
 # Bonjour à tous 👋
 
-### Date de mise à jour : 23/03/2024
+## Date de mise à jour : 23/03/2024
 
 Je suis un professionnel rigoureux et engagé, mettant en œuvre tous les moyens nécessaires pour réussir dans tout ce que j’entreprends. Ma capacité d’adaptation exceptionnelle, mon autonomie et mon souci du travail bien accompli sont mes atouts principaux pour aborder avec succès les tâches qui me sont confiées. J’aime relever des défis et je suis doté d’un sens aigu des priorités. Mon désir de contribuer efficacement au sein de votre entreprise sera soutenu par mes compétences et mon engagement.
 
