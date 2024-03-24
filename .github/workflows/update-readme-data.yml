@@ -16,6 +16,7 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: "18"
+          token: ${{ secrets.MON_JETON_GITHUB }}
 
       - name: Update README Date
         run: |
@@ -27,5 +28,5 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add README.md
-          git commit -m "Automated README date update" -a || exit 0  # Ne pas échouer si aucun changement
-          git push
+          git commit -m "Mise à jour automatique de README" -a || exit 0  # Sortir gracieusement s'il n'y a pas de changements
+          git push --set-upstream origin "${{ github.ref }}" --force
