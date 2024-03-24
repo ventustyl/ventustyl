@@ -1,20 +1,24 @@
-name: Update README Date
+name: Update README every 30 minutes
 
 on:
   schedule:
-    - cron: "0 0 * * *" # Exécute ce workflow tous les jours à minuit UTC
+    - cron: "*/30 * * * *"
 
 jobs:
   update-readme:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout code
+      - name: Checkout repository
         uses: actions/checkout@v2
 
       - name: Update README
         run: |
           DATE=$(date +"%d/%m/%Y")
           sed -i "s/## Date de mise à jour : .*/## Date de mise à jour : $DATE/" README.md
+
+          # Add your script or commands here to automatically generate the README content
+          echo "This README was updated at $(date)" > README.md
 
       - name: Commit and push if changed
         run: |
