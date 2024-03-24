@@ -10,20 +10,19 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       - name: Update README
         run: |
           DATE=$(date +"%d/%m/%Y")
+          echo "Date actuelle: $DATE"
           sed -i "s/## Date de mise à jour : .*/## Date de mise à jour : $DATE/" README.md
-
-          # Add your script or commands here to automatically generate the README content
-          echo "This README was updated at $(date)" > README.md
+          cat README.md # Pour vérifier si la mise à jour a réussi
 
       - name: Commit and push if changed
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add README.md
-          git commit -m "Mise à jour automatique de la date" -a || exit 0
+          git commit -m "Mise à jour automatique de la date" -a || true
           git push
