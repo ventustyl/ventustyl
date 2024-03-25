@@ -1,31 +1,36 @@
-name: Update README Date
+name: Update README all day at 04:04
 
 on:
+  push:
+  workflow_dispatch:
   schedule:
     - cron: "*/30 * * * *" # Ce workflow s'exécute toutes les 30 minutes
 
 jobs:
   update-readme:
     runs-on: ubuntu-latest
-
+    strategy:
+      matrix:
+        node-version: [14.x]
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v2
-
-      - name: Set up Node.js
-        uses: actions/setup-node@v2
+      - uses: actions/checkout@v3
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
         with:
-          node-version: "18"
-
-      - name: Update README Date
+          node-version: ${{ matrix.node-version }}
+      - name: Update README.md file
         run: |
-          DATE=$(date +"%d/%m/%Y")
-          sed -i "s|## Date de mise à jour : .*|## Date de mise à jour : $DATE|" README.md
-
-      - name: Commit and push if changed
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add README.md
-          git commit -m "Mise à jour automatique de README" -a || exit 0  # Sortir gracieusement s'il n'y a pas de changements
-          git push --set-upstream origin "${{ github.ref }}" --force
+          node index.js > README.md
+        env:
+          CI: true
+      - name: commit changes
+        uses: EndBug/add-and-commit@v4
+        with:
+          author_name: Ventustyl
+          author_email: venturino83@gmail.com
+          force: false
+          signoff: false
+          message: ":memo: README.md MAJ"
+        env:
+          # This is necessary in order to push a commit to the repo
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
