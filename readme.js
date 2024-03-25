@@ -1,4 +1,4 @@
-# Bonjour à tous 👋
+module.exports = `# Bonjour à tous 👋
 
 ## Date de mise à jour : 23/03/2024
 
@@ -30,4 +30,6 @@ Venez voir mon Portfolio & Laboratoire sur : [Le lab d'Eric](https://lelabderic.
 Retrouvez moi sur linkedin : [Eric Venturino](https://www.linkedin.com/in/eric-venturino/)  
 Retrouvez moi sur Youtube : [Eric V](https://www.youtube.com/@ventustyl/videos)
 
-Last update on Mon Mar 25 2024
+Mise à jour <#today_date>
+
+`;
