@@ -1,33 +1,50 @@
-# Bonjour à tous 👋
+### Hi there 👋
 
-## Date de mise à jour : 23/03/2024
+I create application on the web and share my journey on [Twitter](https://twitter.com/melvynxdev) and [Youtube](https://www.youtube.com/channel/UC5HDIVwuqoIuKKw-WbQ4CvA) !
 
-Je suis un professionnel rigoureux et engagé, mettant en œuvre tous les moyens nécessaires pour réussir dans tout ce que j’entreprends. Ma capacité d’adaptation exceptionnelle, mon autonomie et mon souci du travail bien accompli sont mes atouts principaux pour aborder avec succès les tâches qui me sont confiées. J’aime relever des défis et je suis doté d’un sens aigu des priorités. Mon désir de contribuer efficacement au sein de votre entreprise sera soutenu par mes compétences et mon engagement.
+And... I create online courses in french to help developers to master modern web technologies.
 
-## Compétences clés
+### Contact me
 
-- **Persévérance** : Je recherche toujours les meilleurs résultats dans les tâches qui me sont attribuées.
-- **Rigueur & Organisation** : J’opère avec rigueur et organisation pour garantir l’excellence du travail rendu, respecter les délais et fournir des résultats de haute qualité.
-- **Curiosité** : À l’aise avec l’informatique, je cultive ma connaissance du web et sa dynamique. Je m’adapte rapidement aux évolutions de cet environnement et suis constamment désireux d’apprendre davantage.
+* [Twitter](https://twitter.com/melvynxdev)
+* [Youtube](https://www.youtube.com/channel/UC5HDIVwuqoIuKKw-WbQ4CvA)
+* [Mail](mailto:contact@melvynx.com)
+* [Linkedin](https://www.linkedin.com/in/melvyn-malherbe/)
 
-## Compétences techniques
+### My projects
 
-### Langages : ![enter image description here](https://lelabderic.fr/wp-content/uploads/2023/08/html-1.png) HTML5, ![enter image description here](https://lelabderic.fr/wp-content/uploads/2023/08/css-1.png) CSS3, ![enter image description here](https://lelabderic.fr/wp-content/uploads/2023/08/js-1.png) JavaScript, ![enter image description here](https://lelabderic.fr/wp-content/uploads/2023/08/php-2.png) PHP, ![enter image description here](https://lelabderic.fr/wp-content/uploads/2023/08/python-1.png) Python
+* [Melvynx](https://melvynx.com)
 
-### Bibliothèques & Frameworks : ![enter image description here](https://lelabderic.fr/wp-content/uploads/2023/08/sass-1.png) SCSS, ![enter image description here](https://lelabderic.fr/wp-content/uploads/2023/08/tailwind-1.png) Tailwind, ![enter image description here](https://lelabderic.fr/wp-content/uploads/2023/08/react-2.png) React, ![enter image description here](https://lelabderic.fr/wp-content/uploads/2023/08/next-1.png) Next, ![enter image description here](https://lelabderic.fr/wp-content/uploads/2023/08/express-js-1.png)ExpressJS, ![enter image description here](https://lelabderic.fr/wp-content/uploads/2023/08/django-1.png) Django
+My personal website, where you can find my projects, my blog and my resume.
 
-### Dépendances & Plateformes : ![enter image description here](https://lelabderic.fr/wp-content/uploads/2023/08/node-2.png) Node.js, ![enter image description here](https://lelabderic.fr/wp-content/uploads/2023/08/redux-2.png)Redux, ![enter image description here](https://lelabderic.fr/wp-content/uploads/2023/08/ejs-1.png) EJS, ![enter image description here](https://lelabderic.fr/wp-content/uploads/2023/08/material-ui-1.png) Material-UI
+* [Codelynx](https://codelynx.dev)
 
-### Gestion de Contenu & Développement de Sites : ![Wordpress](https://lelabderic.fr/wp-content/uploads/2023/08/wordpress-1.png) WordPress , ![enter image description here](https://lelabderic.fr/wp-content/uploads/2023/08/divi-1.png) Divi , ![enter image description here](https://lelabderic.fr/wp-content/uploads/2023/08/elementor-1.png) Elementor , ![enter image description here](https://lelabderic.fr/wp-content/uploads/2023/08/yoast-1.png) Yoast SEO , ![enter image description here](https://lelabderic.fr/wp-content/uploads/2023/08/chatgpt-1.png) Chat GPT
+My blog and my newsletter website.
 
-### Outils & Méthodologies : ![enter image description here](https://lelabderic.fr/wp-content/uploads/2023/08/vscode-2.png) VSCode, ![enter image description here](https://lelabderic.fr/wp-content/uploads/2023/08/vscode-2.png) IntelliJ, ![enter image description here](https://lelabderic.fr/wp-content/uploads/2023/08/github-2.png) Github, ![enter image description here](https://lelabderic.fr/wp-content/uploads/2023/08/agile-2.png) Agile
+* [Codeline](https://app.codelynx.dev)
 
-### Modélisation & Conception : ![enter image description here](https://lelabderic.fr/wp-content/uploads/2023/08/merise-1.png) Merise, ![enter image description here](https://lelabderic.fr/wp-content/uploads/2023/08/mongo-1.png) MongoDB, ![enter image description here](https://lelabderic.fr/wp-content/uploads/2023/08/uml-2.png) UML, ![enter image description here](https://lelabderic.fr/wp-content/uploads/2023/08/mysql-1.png) SQL
+My online courses plateforme. I created BeginReact, NextReact and BeginJavaScript.
 
-Je suis prêt à mettre en œuvre mon expérience et mes compétences variées pour contribuer au succès de votre entreprise. Mon parcours professionnel diversifié et mon engagement en font un candidat idéal pour relever les défis et fournir des résultats exceptionnels.
+* [Chat2Code](https://chat2code.dev)
 
-Venez voir mon Portfolio & Laboratoire sur : [Le lab d'Eric](https://lelabderic.fr/)  
-Retrouvez moi sur linkedin : [Eric Venturino](https://www.linkedin.com/in/eric-venturino/)  
-Retrouvez moi sur Youtube : [Eric V](https://www.youtube.com/@ventustyl/videos)
+A ChatGPT like application that create and generate component directly in the browser. Stop wasting time copy pasting code from ChatGPT to your editor, Chat2Code bring editor in the chat.
 
-Last update on Mon Mar 25 2024
+* [QuizUp](https://quizup.app)
+
+Create a quiz with multiple choice and open questions with input. The next generation of quiz.
+
+* [BulkCorrector](https://bulkcorrector.com)
+
+Correct the grammar of an entire book in 5 minutes.
+
+### Visitor count
+
+<img src="https://profile-counter.glitch.me/Melvynx/count.svg" />
+
+Added the `Mon 3 Jan 2022`
+
+Last update on Sun Mar 31 2024
+
+**276 day before 2025 ⏱** days before new years
+
+🤖 This README.md is updated with hate, by Gabot ❤️
