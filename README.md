@@ -12,21 +12,21 @@ Je suis un professionnel rigoureux et engagé, mettant en œuvre tous les moyens
 
 ## Compétences techniques
 
-### Langages : ![enter image description here](https://lelabderic.fr/wp-content/uploads/2023/08/html-1.png) HTML5, ![enter image description here](https://lelabderic.fr/wp-content/uploads/2023/08/css-1.png) CSS3, ![enter image description here](https://lelabderic.fr/wp-content/uploads/2023/08/js-1.png) JavaScript, ![enter image description here](https://lelabderic.fr/wp-content/uploads/2023/08/php-2.png) PHP, ![enter image description here](https://lelabderic.fr/wp-content/uploads/2023/08/python-1.png) Python
+### Langages : HTML5, CSS3, JavaScript, PHP, Python
 
-### Bibliothèques & Frameworks : ![enter image description here](https://lelabderic.fr/wp-content/uploads/2023/08/sass-1.png) SCSS, ![enter image description here](https://lelabderic.fr/wp-content/uploads/2023/08/tailwind-1.png) Tailwind, ![enter image description here](https://lelabderic.fr/wp-content/uploads/2023/08/react-2.png) React, ![enter image description here](https://lelabderic.fr/wp-content/uploads/2023/08/next-1.png) Next, ![enter image description here](https://lelabderic.fr/wp-content/uploads/2023/08/express-js-1.png)ExpressJS, ![enter image description here](https://lelabderic.fr/wp-content/uploads/2023/08/django-1.png) Django
+### Bibliothèques & Frameworks : SCSS, Tailwind,  React,  Next, ExpressJS, Django
 
-### Dépendances & Plateformes : ![enter image description here](https://lelabderic.fr/wp-content/uploads/2023/08/node-2.png) Node.js, ![enter image description here](https://lelabderic.fr/wp-content/uploads/2023/08/redux-2.png)Redux, ![enter image description here](https://lelabderic.fr/wp-content/uploads/2023/08/ejs-1.png) EJS, ![enter image description here](https://lelabderic.fr/wp-content/uploads/2023/08/material-ui-1.png) Material-UI
+### Dépendances & Plateformes : Node.js,Redux, EJS, Material-UI
 
-### Gestion de Contenu & Développement de Sites : ![Wordpress](https://lelabderic.fr/wp-content/uploads/2023/08/wordpress-1.png) WordPress , ![enter image description here](https://lelabderic.fr/wp-content/uploads/2023/08/divi-1.png) Divi , ![enter image description here](https://lelabderic.fr/wp-content/uploads/2023/08/elementor-1.png) Elementor , ![enter image description here](https://lelabderic.fr/wp-content/uploads/2023/08/yoast-1.png) Yoast SEO , ![enter image description here](https://lelabderic.fr/wp-content/uploads/2023/08/chatgpt-1.png) Chat GPT
+### Gestion de Contenu & Développement de Sites : WordPress , Divi , Elementor , Yoast SEO , Chat GPT
 
-### Outils & Méthodologies : ![enter image description here](https://lelabderic.fr/wp-content/uploads/2023/08/vscode-2.png) VSCode, ![enter image description here](https://lelabderic.fr/wp-content/uploads/2023/08/vscode-2.png) IntelliJ, ![enter image description here](https://lelabderic.fr/wp-content/uploads/2023/08/github-2.png) Github, ![enter image description here](https://lelabderic.fr/wp-content/uploads/2023/08/agile-2.png) Agile
+### Outils & Méthodologies : VSCode, IntelliJ, Github, Agile
 
-### Modélisation & Conception : ![enter image description here](https://lelabderic.fr/wp-content/uploads/2023/08/merise-1.png) Merise, ![enter image description here](https://lelabderic.fr/wp-content/uploads/2023/08/mongo-1.png) MongoDB, ![enter image description here](https://lelabderic.fr/wp-content/uploads/2023/08/uml-2.png) UML, ![enter image description here](https://lelabderic.fr/wp-content/uploads/2023/08/mysql-1.png) SQL
+### Modélisation & Conception : Merise, MongoDB, UML, SQL, POO
 
 Je suis prêt à mettre en œuvre mon expérience et mes compétences variées pour contribuer au succès de votre entreprise. Mon parcours professionnel diversifié et mon engagement en font un candidat idéal pour relever les défis et fournir des résultats exceptionnels.
 
-Venez voir mon Portfolio & Laboratoire sur : [Le lab d'Eric](https://lelabderic.fr/)  
+Venez voir mon Portfolio & Laboratoire sur : [Eric Venturino](https://[venturino.site])  
 Retrouvez moi sur linkedin : [Eric Venturino](https://www.linkedin.com/in/eric-venturino/)  
 Retrouvez moi sur Youtube : [Eric V](https://www.youtube.com/@ventustyl/videos)
 
