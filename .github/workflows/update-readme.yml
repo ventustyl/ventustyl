@@ -5,28 +5,18 @@ on:
     - cron: '0 0 * * *'  # Runs at midnight UTC every day
   workflow_dispatch:     # Allows manual triggering
 
-permissions:
-  contents: write  # Give write permission to modify repository contents
-
 jobs:
   update-readme:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
     - uses: actions/checkout@v3
     
     - name: Update README
-      run: |
-        current_date=$(date "+%d/%m/%Y")
-        sed -i "s/Date de mise à jour : [0-9]\{2\}\/[0-9]\{2\}\/[0-9]\{4\}/Date de mise à jour : $current_date/" README.md
-        
-        # Update last update line
-        last_update_line="Last update on $(date)"
-        sed -i "s/Last update on.*/$last_update_line/" README.md
-    
-    - name: Commit changes
-      run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
-        git add README.md
-        git commit -m "Update README date" || exit 0
-        git push
+      uses: digitalfortress-tech/update-readme@v1
+      with:
+        commit_message: Update README date
+        update_section: true
+        section_pattern: '## Date de mise à jour'
+        update_last_update_section: true
