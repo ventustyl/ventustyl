@@ -11,31 +11,14 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     
-    - name: Debug Information
-      run: |
-        echo "Current directory contents:"
-        ls -la
-        
-        echo "Git configuration:"
-        git config --list
-        
-        echo "Current date and timezone:"
-        date
-        
-        echo "README.md contents:"
-        cat README.md
-    
     - name: Attempt README Update
       run: |
         current_date=$(date +"%d/%m/%Y")
         last_update=$(date)
         
-        echo "Attempting to update with:"
-        echo "Current date: $current_date"
-        echo "Last update: $last_update"
-        
-        sed -i "s/Date de mise à jour : [0-9][0-9]\/[0-9][0-9]\/[0-9][0-9][0-9][0-9]/Date de mise à jour : $current_date/" README.md
-        sed -i "s/Last update on.*$/Last update on $last_update/" README.md
+        # Use perl instead of sed for more robust text replacement
+        perl -pi -e "s/Date de mise à jour : \d{2}\/\d{2}\/\d{4}/Date de mise à jour : $current_date/" README.md
+        perl -pi -e "s/Last update on.*/Last update on $last_update/" README.md
         
         echo "Updated README contents:"
         cat README.md
