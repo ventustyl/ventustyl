@@ -1,6 +1,6 @@
 # Bonjour à tous 👋
 
-## Date de mise à jour : 23/03/2024
+## Date de mise à jour : 18/11/2024
 
 Je suis un professionnel rigoureux et engagé, mettant en œuvre tous les moyens nécessaires pour réussir dans tout ce que j’entreprends. Ma capacité d’adaptation exceptionnelle, mon autonomie et mon souci du travail bien accompli sont mes atouts principaux pour aborder avec succès les tâches qui me sont confiées. J’aime relever des défis et je suis doté d’un sens aigu des priorités. Mon désir de contribuer efficacement au sein de votre entreprise sera soutenu par mes compétences et mon engagement.
 
@@ -30,4 +30,4 @@ Venez voir mon Portfolio & Laboratoire sur : [Eric Venturino](https://venturino.
 Retrouvez moi sur linkedin : [Eric Venturino](https://www.linkedin.com/in/eric-venturino/)  
 Retrouvez moi sur Youtube : [Eric V](https://www.youtube.com/@ventustyl/videos)
 
-Last update on Mon Mar 25 2024
+Last update on Mon Nov 18 15:33:51 UTC 2024
