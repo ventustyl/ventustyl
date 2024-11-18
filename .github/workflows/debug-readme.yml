@@ -1,0 +1,49 @@
+name: Debug README Update
+
+on:
+  workflow_dispatch:
+
+jobs:
+  debug:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Debug Information
+      run: |
+        echo "Current directory contents:"
+        ls -la
+        
+        echo "Git configuration:"
+        git config --list
+        
+        echo "Current date and timezone:"
+        date
+        
+        echo "README.md contents:"
+        cat README.md
+    
+    - name: Attempt README Update
+      run: |
+        current_date=$(date +"%d/%m/%Y")
+        last_update=$(date)
+        
+        echo "Attempting to update with:"
+        echo "Current date: $current_date"
+        echo "Last update: $last_update"
+        
+        sed -i "s/Date de mise à jour : [0-9]\{2\}\/[0-9]\{2\}\/[0-9]\{4\}/Date de mise à jour : $current_date/" README.md
+        sed -i "s/Last update on.*$/Last update on $last_update/" README.md
+        
+        echo "Updated README contents:"
+        cat README.md
+    
+    - name: Commit and Push
+      run: |
+        git config user.name "GitHub Action"
+        git config user.email "action@github.com"
+        git add README.md
+        git commit -m "Debug: Update README" || echo "No changes to commit"
+        git push
