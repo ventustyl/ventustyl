@@ -16,8 +16,11 @@ jobs:
         current_date=$(date +"%d/%m/%Y")
         last_update=$(date)
         
-        # Use perl instead of sed for more robust text replacement
-        perl -pi -e "s/Date de mise à jour : \d{2}\/\d{2}\/\d{4}/Date de mise à jour : $current_date/" README.md
+        # Escape slashes in current_date for use in perl
+        escaped_date=$(echo "$current_date" | sed 's/\//\\\//g')
+        
+        # Use perl to replace text with escaped variables
+        perl -pi -e "s/Date de mise à jour : \\d{2}\\/\\d{2}\\/\\d{4}/Date de mise à jour : $escaped_date/" README.md
         perl -pi -e "s/Last update on.*/Last update on $last_update/" README.md
         
         echo "Updated README contents:"
