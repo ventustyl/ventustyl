@@ -5,6 +5,9 @@ on:
     - cron: '0 0 * * *'  # Runs at midnight UTC every day
   workflow_dispatch:     # Allows manual triggering
 
+permissions:
+  contents: write  # Give write permission to modify repository contents
+
 jobs:
   update-readme:
     runs-on: ubuntu-latest
