@@ -2,32 +2,43 @@
 
 ## Date de mise à jour : 18/11/2024
 
-Je suis un professionnel rigoureux et engagé, mettant en œuvre tous les moyens nécessaires pour réussir dans tout ce que j’entreprends. Ma capacité d’adaptation exceptionnelle, mon autonomie et mon souci du travail bien accompli sont mes atouts principaux pour aborder avec succès les tâches qui me sont confiées. J’aime relever des défis et je suis doté d’un sens aigu des priorités. Mon désir de contribuer efficacement au sein de votre entreprise sera soutenu par mes compétences et mon engagement.
+Je suis un professionnel rigoureux, adaptable et passionné par l'excellence. Mon autonomie, ma capacité d'adaptation et mon sens des priorités me permettent de relever les défis avec succès. Je suis motivé à contribuer efficacement à votre entreprise grâce à mes compétences variées et mon engagement.
 
 ## Compétences clés
 
-- **Persévérance** : Je recherche toujours les meilleurs résultats dans les tâches qui me sont attribuées.
-- **Rigueur & Organisation** : J’opère avec rigueur et organisation pour garantir l’excellence du travail rendu, respecter les délais et fournir des résultats de haute qualité.
-- **Curiosité** : À l’aise avec l’informatique, je cultive ma connaissance du web et sa dynamique. Je m’adapte rapidement aux évolutions de cet environnement et suis constamment désireux d’apprendre davantage.
+- **Persévérance** : Je m'efforce toujours de surpasser les attentes et d'atteindre les meilleurs résultats possibles.
+- **Rigueur & Organisation** : Mes méthodes de travail structurées garantissent des projets livrés dans les délais et d'une qualité irréprochable.
+- **Curiosité** : Passionné par les nouvelles technologies, j'apprends rapidement et reste constamment à jour avec les évolutions du secteur.
 
 ## Compétences techniques
 
-### Langages : HTML5, CSS3, JavaScript, PHP, Python
+### **Langages et Programmation :**
+- HTML5, CSS3, JavaScript, PHP, Python
 
-### Bibliothèques & Frameworks : SCSS, Tailwind,  React,  Next, ExpressJS, Django
+### **Frameworks et Bibliothèques :**
+- SCSS, TailwindCSS, React, Next.js, ExpressJS, Django
 
-### Dépendances & Plateformes : Node.js,Redux, EJS, Material-UI
+### **Outils et Plateformes :**
+- Node.js, Redux, Material-UI, EJS
 
-### Gestion de Contenu & Développement de Sites : WordPress , Divi , Elementor , Yoast SEO , Chat GPT
+### **CMS et SEO :**
+- WordPress, Divi, Elementor, Yoast SEO
 
-### Outils & Méthodologies : VSCode, IntelliJ, Github, Agile
+### **Modélisation et Bases de Données :**
+- MongoDB, SQL, UML, Merise, POO
 
-### Modélisation & Conception : Merise, MongoDB, UML, SQL, POO
+### **Environnement de Développement :**
+- VSCode, IntelliJ, GitHub, Méthodologies Agile
 
 Je suis prêt à mettre en œuvre mon expérience et mes compétences variées pour contribuer au succès de votre entreprise. Mon parcours professionnel diversifié et mon engagement en font un candidat idéal pour relever les défis et fournir des résultats exceptionnels.
 
-Venez voir mon Portfolio & Laboratoire sur : [Eric Venturino](https://venturino.site)  
-Retrouvez moi sur linkedin : [Eric Venturino](https://www.linkedin.com/in/eric-venturino/)  
-Retrouvez moi sur Youtube : [Eric V](https://www.youtube.com/@ventustyl/videos)
+---
 
-Last update on Mon Nov 18 15:33:51 UTC 2024
+### 🔗 Liens
+- 🌐 **Portfolio & Laboratoire** : [Eric Venturino](https://venturino.site)  
+- 💼 **LinkedIn** : [Eric Venturino](https://www.linkedin.com/in/eric-venturino/)  
+- 🎥 **YouTube** : [Eric V](https://www.youtube.com/@ventustyl/videos)
+
+---
+
+_Last update on Mon Nov 18 15:33:51 UTC 2024_
