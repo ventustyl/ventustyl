@@ -1,7 +1,7 @@
 # 👋 Bonjour, je suis Eric Venturino
 
 
-## 🚀 Développeur Web Fullstack | Consultant Web | Spécialiste WordPress & SEO
+## 🚀 Développeur Web Fullstack | Consultant Web | Spécialiste WordPress
 
 Je suis un professionnel rigoureux et passionné par le développement web, l'UI/UX design, et l'optimisation SEO. Mon parcours diversifié et ma curiosité pour les nouvelles technologies me permettent de proposer des solutions innovantes adaptées aux besoins de mes clients.
 
