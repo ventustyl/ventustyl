@@ -36,7 +36,7 @@ Je suis un professionnel rigoureux et passionné par le développement web, l'UI
 ![.NET MAUI](https://img.shields.io/badge/.NET%20MAUI-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
 ![Blazor](https://img.shields.io/badge/Blazor-512BD4?style=for-the-badge&logo=blazor&logoColor=white)
 ![WinDev](https://img.shields.io/badge/WinDev-0055A4?style=for-the-badge&logo=windows&logoColor=white)
-![WebDev](https://img.shields.io/badge/WebDev-0078D7?style=for-the-badge&logo=internet-explorer&logoColor=white)
+
 ---
 
 ## 📚 Formation
